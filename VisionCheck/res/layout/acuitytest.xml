@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    
+     <RelativeLayout
+         android:id="@+id/relativelayout1"
+         android:layout_width="match_parent"
+         android:layout_height="350dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:background="#bae3f6" >
+
+         <TextView
+             android:id="@+id/acuitytext2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="150dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="W  E  R  S  T"
+             android:textSize="22dp"
+             android:visibility="invisible" />
+
+         <TextView
+             android:id="@+id/acuitytext1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/acuitytext2"
+             android:layout_alignRight="@+id/acuitytext2"
+             android:layout_marginRight="26dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="M  Q  U "
+             android:textSize="25dp" />
+
+         <TextView
+             android:id="@+id/acuitytext3"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="150dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="G  K  E  O  R "
+             android:textSize="19dp"
+             android:visibility="invisible"/>
+
+         <TextView
+              android:id="@+id/acuitytext4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="150dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="S  U  P  M  W  Z"
+             android:textSize="16dp"
+             android:visibility="invisible"/>
+
+         <TextView
+               android:id="@+id/acuitytext5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="150dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="F  J  D  I  A  K  N"
+             android:textSize="14dp"
+             android:visibility="invisible"
+             />
+
+         <TextView
+                android:id="@+id/acuitytext6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="150dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="U  T  P  Y  X  R  L  G"
+             android:textSize="12dp"
+             android:visibility="invisible"/>
+
+         <TextView
+             android:id="@+id/acuitytext7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="150dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="T  O  W  Y  S  J  K  F  U "
+             android:textSize="10dp"
+             android:visibility="invisible"/>
+
+         <TextView
+             android:id="@+id/acuitytext8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="150dp"
+             android:layout_weight="1.06"
+             android:gravity="center"
+             android:text="J  S  L  Z  X  W  G  D  V  N  O "
+             android:textSize="8dp"
+             android:visibility="invisible"/>
+
+     </RelativeLayout>
+
+     <Button
+         android:id="@+id/acuitystop"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="50dp"
+         android:layout_marginBottom="2dp"
+         android:background="#003D99"
+         android:gravity="center"
+         android:text="Stop"
+         android:textColor="#ffffff"
+         android:textStyle="bold" />
+
+     <Button
+         android:id="@+id/acuitynext"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginRight="56dp"
+         android:layout_marginBottom="2dp"
+         android:layout_toLeftOf="@+id/acuitystop"
+         android:background="#003D99"
+         android:gravity="center"
+         android:text="Next"
+         android:textColor="#ffffff"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/relativelayout1"
+         android:gravity="center_horizontal"
+         android:text="If you can read all letters click Next, If you cannot read all letters click Stop."
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#ffffff"
+         android:textStyle="bold" />
+     
+     </RelativeLayout>

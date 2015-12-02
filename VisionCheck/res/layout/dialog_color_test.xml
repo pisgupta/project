@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal" 
+    android:background="#000000">
+ <TextView
+        android:id="@+id/colordialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:gravity="center|center_horizontal"
+        android:text="What is it??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+<TextView
+    android:id="@+id/colordialog2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/colordialog1"
+    android:text="This test is deigned to test any colour weakness in your eyes. Colour efficiency is a common problem."
+    android:textColor="#FFFFFF"
+    android:textSize="15dp" />
+<TextView
+        android:id="@+id/colordialog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/colordialog2"
+        android:layout_centerHorizontal="true"
+        android:text="How to use Test??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/colordialog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colordialog3"
+        android:text="Wear your contacts or glasses if you normally wear them. A coloured pattern will be displayed composed of circular dots. You must try to identify the number in the pattern. "
+        android:textColor="#FFFFFF"
+        android:textSize=" 15dp" />
+
+    
+   
+
+    <Button
+        android:id="@+id/colorgotit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/colordialog4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:background="#d0e0eb"
+        android:text="GOT IT" />
+    
+</RelativeLayout>

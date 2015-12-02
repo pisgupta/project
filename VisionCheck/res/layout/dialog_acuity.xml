@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+  >
+<TextView
+        android:id="@+id/acuitydialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:gravity="center|center_horizontal"
+        android:text="What is it??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+<TextView
+    android:id="@+id/acuitydialog2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/acuitydialog1"
+    android:text="This test is designed to test your clearness of vision and your eye's ability to distinguish object details and shapes."
+    android:textColor="#FFFFFF"
+    android:textSize="15dp" />
+<TextView
+        android:id="@+id/acuitydialog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acuitydialog2"
+        android:layout_centerHorizontal="true"
+        android:text="How to use Test??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/acuitydialog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/acuitydialog3"
+        android:text="Wear your contacts or glasses if you normally wear them.Hold your device 30cm away from your eyes.A letter will be displayed and you must answer with which letter you saw. "
+        android:textColor="#FFFFFF"
+        android:textSize=" 15dp" />
+
+    
+   
+
+    <Button
+        android:id="@+id/acuitygotit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acuitydialog4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:background="#d0e0eb"
+        android:text="GOT IT" />
+    
+</RelativeLayout>

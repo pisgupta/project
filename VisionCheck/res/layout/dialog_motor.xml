@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    android:background="#000000"
+    android:orientation="vertical" >
+<TextView
+        android:id="@+id/motordialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:gravity="center|center_horizontal"
+        android:text="What is it??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+<TextView
+    android:id="@+id/motordialog2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/motordialog1"
+    android:text="This test is designed to calculate the accuracy of your eyes in which a red ball moves horizontally over the screen 2 times."
+    android:textColor="#FFFFFF"
+    android:textSize="15dp" />
+<TextView
+        android:id="@+id/motordialog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/motordialog2"
+        android:layout_centerHorizontal="true"
+        android:text="How to use Test??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/motordialog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/motordialog3"
+        android:text="The test starts in few seconds.In this you have to place your index finger on the ball and move the finger along with the ball.See the video tutorial for more clearance "
+        android:textColor="#FFFFFF"
+        android:textSize=" 15dp" />
+
+    <Button
+        android:id="@+id/motorgotit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/motordialog4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="#d0e0eb"
+android:gravity="center"
+        android:text="GOT IT"
+        android:textStyle="bold" />
+
+     >
+    
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.visioncheck"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    
+<uses-feature android:name="android.hardware.camera"
+    android:required="false"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sfs.mohali.visioncheck.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:logo="@drawable/ic_launcher" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity android:name="com.sfs.mohali.visioncheck.Home"> </activity>
+       <activity android:name="com.sfs.mohali.visioncheck.Registration"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.StartPage"> </activity>
+        <activity android:name="com.sfs.mohali.visioncheck.StartTest"> </activity>
+        <activity android:name="com.sfs.mohali.visioncheck.DemoTour"> </activity>
+        <activity android:name="com.sfs.mohali.visioncheck.AcuityTest"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.CameraTest"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.ShowImageOnclick"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.Start_Ques1"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.Start_Ques2"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.MotarTest"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.Start_Ques3"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.Ques_Result"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.DemoCameraTutorial"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.DemoRightEye"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.DemoLeftEye"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.DemoPill"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.DemoFinger"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.ColorTest1"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.ColorTest2"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.ColorTest3"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.ColorTest4"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.ResultColor"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.SelectButton1"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.SelectButton2"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.SelectButton3"></activity>
+        <activity android:name="com.sfs.mohali.visioncheck.SelectButton4"></activity>
+        </application>
+
+</manifest>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg"
+    android:layout_gravity="center_horizontal" >
+    <TableRow 
+      android:id="@+id/tableRow1ques2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="70dp"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_weight=".5"
+            android:background="#bed4f1"
+            android:textStyle="bold"
+            android:text="Question 2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</TableRow>
+<TableRow
+     android:id="@+id/tableRow2ques2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp" >
+    
+
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="center_horizontal"
+    android:layout_weight=".5"
+    android:background="#bed4f1"
+    android:textSize="20dp"
+    android:textStyle="italic"
+           
+    android:text="Working on computer after a period of time,do you experience headaches or tired eyes?" />
+</TableRow>
+<TableRow  android:id="@+id/tableRow3ques2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp" >
+   
+     <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_weight=".5"
+            android:background="#bed4f1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Select an answer "/>
+</TableRow>
+<TableRow 
+   android:id="@+id/tableRow4ques2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:paddingTop="15dp" >
+    
+
+
+<Button
+    android:id="@+id/quest2yes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:text="YES" />
+</TableRow>
+<TableRow 
+   android:id="@+id/tableRow5ques2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:paddingTop="10dp" >
+    
+
+
+<Button
+    android:id="@+id/quest2no"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:text="NO" />
+</TableRow>
+    
+    
+
+</TableLayout>

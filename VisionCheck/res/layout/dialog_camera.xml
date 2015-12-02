@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#000000"
+    android:orientation="vertical" >
+<TextView
+        android:id="@+id/cameradialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:gravity="center|center_horizontal"
+        android:textAlignment="center"
+        android:text="What is it??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+<TextView
+    android:id="@+id/cameradialog2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/cameradialog1"
+    android:text="The Camera Capture provides an interface through which you can click pictures of your eyes."
+     android:textAlignment="center"
+    android:textColor="#FFFFFF"
+    android:textSize="15dp" />
+<TextView
+        android:id="@+id/cameradialog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cameradialog2"
+        android:layout_centerHorizontal="true"
+         android:textAlignment="center"
+        android:text="How to use Test??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cameradialog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cameradialog3"
+        android:textAlignment="center"
+        android:text="Lit the room properly and carefully place your eyes inside the grids provided on the camera screen.Follow the audio instructions and proceed further towards the next step. "
+        
+         android:textColor="#FFFFFF"
+        android:textSize=" 15dp" />
+
+    <Button
+        android:id="@+id/camgotit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cameradialog3"
+        android:layout_below="@+id/cameradialog4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="36dp"
+        android:background="#d0e0eb"
+        android:textAlignment="center"
+        android:text="Got It"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/camtutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/camgotit"
+        android:layout_alignBottom="@+id/camgotit"
+        android:layout_alignRight="@+id/cameradialog3"
+        android:layout_marginRight="16dp"
+        android:background="#d0e0eb"
+        android:textAlignment="center"
+        android:text="Tutorial"
+        android:textStyle="bold" />
+
+</RelativeLayout>

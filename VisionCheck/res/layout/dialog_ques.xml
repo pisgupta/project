@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+<TextView
+        android:id="@+id/quesdialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:gravity="center|center_horizontal"
+        android:text="What is it??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+<TextView
+    android:id="@+id/quesdialog2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/quesdialog1"
+    android:text="This test contains some general questions related to your daily life."
+    android:textColor="#FFFFFF"
+    android:textSize="15dp" />
+<TextView
+        android:id="@+id/quesdialog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quesdialog2"
+        android:layout_centerHorizontal="true"
+        android:text="How to use Test??"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quesdialog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quesdialog3"
+        android:text="You just have to answer these questions and some suggestions will be given to you in the end. "
+        android:textColor="#FFFFFF"
+        android:textSize=" 15dp" />
+
+    
+   
+
+    <Button
+        android:id="@+id/quesgotit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quesdialog4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:background="#d0e0eb"
+        android:text="GOT IT" />
+    
+
+</RelativeLayout>

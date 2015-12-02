@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg"
+    android:layout_gravity="center_horizontal" >
+    <TableRow 
+      android:id="@+id/tableRow1ques3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="70dp"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_weight=".5"
+            android:background="#bed4f1"
+            android:textStyle="bold"
+            android:text="Question 3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</TableRow>
+<TableRow
+     android:id="@+id/tableRow2ques3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp" >
+    
+
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="center_horizontal"
+    android:layout_weight=".5"
+    android:background="#bed4f1"
+    android:textSize="20dp"
+    android:textStyle="italic"
+           
+    android:text="Has it been over two years since your last eyetest?" />
+</TableRow>
+<TableRow  android:id="@+id/tableRow3ques3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp" >
+   
+     <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_weight=".5"
+            android:background="#bed4f1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Select an answer "/>
+</TableRow>
+<TableRow 
+   android:id="@+id/tableRow4ques3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:paddingTop="15dp" >
+    
+
+
+<Button
+    android:id="@+id/quest3yes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:text="YES" />
+</TableRow>
+<TableRow 
+   android:id="@+id/tableRow5ques3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:paddingTop="10dp" >
+    
+
+
+<Button
+    android:id="@+id/quest3no"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:text="NO" />
+</TableRow>
+    
+    
+    
+    
+
+</TableLayout>
